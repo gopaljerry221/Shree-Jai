@@ -91,7 +91,7 @@ export default function Home() {
             <h6 className="text-center pb-[20px] text-[24px] font-bold">Dhoop</h6>
             <Image src="/images/homepage/dhoop.webp" className="rounded-[4px]" alt="products category" height={500} width={500} />
           </div>
-          <div className="card h-[300px] d:w-[300px] p-[20px] rounded-[6px]">
+          <div className="card h-[300px] md:w-[300px] p-[20px] rounded-[6px]">
             <h6 className="text-center pb-[20px] text-[24px] font-bold">Camphor</h6>
             <Image src="/images/homepage/kapoor.webp" className="rounded-[4px]" alt="products category" height={500} width={500} />
           </div>
