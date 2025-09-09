@@ -1,0 +1,18 @@
+.header-logo-wrap {
+    .header-logo-image {
+        width: 115px;
+        height: 60px;
+
+        @media (max-width: 767px) {
+            width: 70px;
+            height: 30px;
+        }
+    }
+}
+
+.navbar-main {
+    box-shadow: 0 0 4px 2px #0000001a;
+    position: sticky;
+    top: 0;
+    z-index: 100000;
+}
