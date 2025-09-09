@@ -62,12 +62,12 @@ export default function Home() {
       </section>
 
       <section className="sjfpl-section px-[20px]">
-        <h1 className="text-left md:text-center font-bold text-[38px] pt-[40px]">SJFPL - Shree Jai</h1>
-        <p className="text-left md:text-center text-[20px] md:w-[80%] m-auto py-[20px]">Shree Jalaram Fragrance Pvt. Ltd., The flagship company of a Group comprising seven industries- all engaged in the manufacturing and wholesale supply of <span className="font-bold text-[#666]"> agarbattis (incense sticks), Masala Sticks, Dhoop Sticks & Powder, Camphor, Pooja Packs, Roll-on Perfumes, Attar, Kumkum, Hawan materials and other fragrance related Products </span></p>
+        <h1 className="text-left md:text-center font-bold text-[28px] md:text-[38px] pt-[40px]">SJFPL - Shree Jai</h1>
+        <p className="text-left md:text-center text-[16px] md:text-[20px] md:w-[80%] m-auto py-[20px]">Shree Jalaram Fragrance Pvt. Ltd., The flagship company of a Group comprising seven industries- all engaged in the manufacturing and wholesale supply of <span className="font-bold text-[#666]"> agarbattis (incense sticks), Masala Sticks, Dhoop Sticks & Powder, Camphor, Pooja Packs, Roll-on Perfumes, Attar, Kumkum, Hawan materials and other fragrance related Products </span></p>
 
-        <p className="text-left md:text-center text-[20px] md:w-[80%] m-auto pb-[20px]">
-  Shree Jalaram Fragrance Pvt. Ltd. Is the part of Thakral Group which established in 1959. Late Shree Ratilal Kanji Thakral first set up an agarbatti – manufacturing unit in the brand name of <span className="font-bold text-[#666]">Parasmani.</span> In 1970 Ghanshyam Thakral son of Ratilal Thakral took over the business. The brand <span className="font-bold text-[#666]">&quot;Parasmani&quot;.</span> found an export market in Japan, Dubai and other places and in 1982 The Government of India awarded <span className="font-bold text-[#666]">Parasmani.</span> agarbatti a gold medal for being higher Exporter in aggarbatti at Vidarbha region.
-</p>
+        <p className="text-left md:text-center text-[16px] md:text-[20px] md:w-[80%] m-auto pb-[20px]">
+          Shree Jalaram Fragrance Pvt. Ltd. Is the part of Thakral Group which established in 1959. Late Shree Ratilal Kanji Thakral first set up an agarbatti – manufacturing unit in the brand name of <span className="font-bold text-[#666]">Parasmani.</span> In 1970 Ghanshyam Thakral son of Ratilal Thakral took over the business. The brand <span className="font-bold text-[#666]">&quot;Parasmani&quot;.</span> found an export market in Japan, Dubai and other places and in 1982 The Government of India awarded <span className="font-bold text-[#666]">Parasmani.</span> agarbatti a gold medal for being higher Exporter in aggarbatti at Vidarbha region.
+        </p>
 
       </section>
 
@@ -103,7 +103,7 @@ export default function Home() {
       </section>
 
       <section className="our-strength-section px-[20px] md:px-[70px] bg-white pb-[70px]">
-        <h4 className="text-center md:text-center font-bold text-[38px] pt-[40px] pb-[40px]">Our Strength</h4>
+        <h4 className="text-center md:text-center font-bold text-[30px] md:text-[38px] pt-[40px] pb-[40px]">Our Strength</h4>
         <div className="md:flex gap-[30px] items-center">
           <video
             src="/images/homepage/insense.mp4"    /* or a remote URL */
@@ -116,9 +116,9 @@ export default function Home() {
           />
 
           <div>
-            <p className="font-semibold pb-[30px] pt-[20px] md:pt-[0px]"> <span className="text-[#666] font-bold">Quality Control -</span> Our aim to provide Best Quality with Best Fragrance. Our incenses are hand rolled and machine made we have highly committed Team of quality examinees that avails you best quality at Competitive Price.</p>
+            <p className="font-semibold pb-[30px] pt-[20px] md:pt-[0px]"> <span className="text-[#666] font-bold text-[16px] md:text-[20px]">Quality Control -</span> Our aim to provide Best Quality with Best Fragrance. Our incenses are hand rolled and machine made we have highly committed Team of quality examinees that avails you best quality at Competitive Price.</p>
 
-          <p className="font-semibold"> <span className="text-[#666] font-bold">Import & Export -</span> We export fine quality agarbattis/incense sticks that have natural, exotic fragrances. With different perfumes jasmine, sandalwood & rose, which spread the ambience of freshness and tranquility</p>
+            <p className="font-semibold text-[16px] md:text-[20px]"> <span className="text-[#666] font-bold">Import & Export -</span> We export fine quality agarbattis/incense sticks that have natural, exotic fragrances. With different perfumes jasmine, sandalwood & rose, which spread the ambience of freshness and tranquility</p>
           </div>
         </div>
       </section>
