@@ -2,6 +2,7 @@ import Image from "next/image";
 import Facebook from "../../public/images/logos/fb";
 import Insta from "../../public/images/logos/insta";
 import Youtube from "../../public/images/logos/youtube";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -18,21 +19,21 @@ export default function Footer() {
               requirements, personal care, air care and lifestyle products.
             </p>
             <li className="flex justify-start gap-4 pt-[30px]">
-              <a href="https://www.facebook.com/ShreeJalaramfragrance#" target="_blank">
+              <Link href="https://www.facebook.com/ShreeJalaramfragrance#" target="_blank">
                 <Facebook />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://www.instagram.com/shreejalaramfragrance/"
                 target="_blank"
               >
                 <Insta />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://www.youtube.com/channel/UCltQdibmxeNpslkCo22eJVg"
                 target="_blank"
               >
                 <Youtube />
-              </a>
+              </Link>
             </li>
           </div>
 
@@ -40,16 +41,16 @@ export default function Footer() {
           <div className="our-product-section md:w-[15%] w-full text-left">
             <h5 className="text-[20px] font-bold pb-[20px]">Our Products</h5>
             <li className="list-none pb-[8px] hover:text-[#ed1112] font-semibold">
-              <a href="/">Up Coming Product</a>
+              <Link href="/">Up Coming Product</Link>
             </li>
             <li className="list-none pb-[8px] hover:text-[#ed1112] font-semibold">
-              <a href="/">Agarbati</a>
+              <Link href="/">Agarbati</Link>
             </li>
             <li className="list-none pb-[8px] hover:text-[#ed1112] font-semibold">
-              <a href="/">Dhoop</a>
+              <Link href="/">Dhoop</Link>
             </li>
             <li className="list-none pb-[8px] hover:text-[#ed1112] font-semibold">
-              <a href="/">Camphor</a>
+              <Link href="/">Camphor</Link>
             </li>
           </div>
 
@@ -57,10 +58,10 @@ export default function Footer() {
           <div className="contact-us-section md:w-[15%] w-full text-left">
             <h5 className="text-[20px] font-bold pb-[20px]">Contact us</h5>
             <li className="list-none pb-[8px] hover:text-[#ed1112] font-semibold">
-              <a href="/">+91 9890941669</a>
+              <Link href="/">+91 9890941669</Link>
             </li>
             <li className="list-none pb-[8px] hover:text-[#ed1112] font-semibold">
-              <a href="/">Info@sjfpl.com</a>
+              <Link href="/">Info@sjfpl.com</Link>
             </li>
           </div>
 
@@ -68,10 +69,10 @@ export default function Footer() {
           <div className="contact-us-section md:w-[15%] w-full text-left">
             <h5 className="text-[20px] font-bold pb-[20px]">Address</h5>
             <li className="list-none pb-[8px]">
-              <a href="/">
+              <Link href="/">
                 Akli Seem-Hingna Rd, Lokmanya Nagar, Nagpur, Nildoh ct,
                 Maharashtra 441110
-              </a>
+              </Link>
             </li>
           </div>
         </div>

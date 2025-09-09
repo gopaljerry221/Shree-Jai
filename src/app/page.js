@@ -65,7 +65,10 @@ export default function Home() {
         <h1 className="text-left md:text-center font-bold text-[38px] pt-[40px]">SJFPL - Shree Jai</h1>
         <p className="text-left md:text-center text-[20px] md:w-[80%] m-auto py-[20px]">Shree Jalaram Fragrance Pvt. Ltd., The flagship company of a Group comprising seven industries- all engaged in the manufacturing and wholesale supply of <span className="font-bold text-[#666]"> agarbattis (incense sticks), Masala Sticks, Dhoop Sticks & Powder, Camphor, Pooja Packs, Roll-on Perfumes, Attar, Kumkum, Hawan materials and other fragrance related Products </span></p>
 
-        <p className="text-left md:text-center text-[20px] md:w-[80%] m-auto pb-[20px]">Shree Jalaram Fragrance Pvt. Ltd. Is the part of Thakral Group which established in 1959. Late Shree Ratilal Kanji Thakral first set up an agarbatti – manufacturing unit in the brand name of <span className="font-bold text-[#666]">Parasmani.</span> In 1970 Ghanshyam Thakral son of Ratilal Thakral took over the business. The brand <span className="font-bold text-[#666]">"Parasmani".</span>  found an export market in Japan, Dubai and other places and in 1982 The Government of India awarded <span className="font-bold text-[#666]">Parasmani.</span>  agarbatti a gold medal for being higher Exporter in aggarbatti at Vidarbha region.</p>
+        <p className="text-left md:text-center text-[20px] md:w-[80%] m-auto pb-[20px]">
+  Shree Jalaram Fragrance Pvt. Ltd. Is the part of Thakral Group which established in 1959. Late Shree Ratilal Kanji Thakral first set up an agarbatti – manufacturing unit in the brand name of <span className="font-bold text-[#666]">Parasmani.</span> In 1970 Ghanshyam Thakral son of Ratilal Thakral took over the business. The brand <span className="font-bold text-[#666]">&quot;Parasmani&quot;.</span> found an export market in Japan, Dubai and other places and in 1982 The Government of India awarded <span className="font-bold text-[#666]">Parasmani.</span> agarbatti a gold medal for being higher Exporter in aggarbatti at Vidarbha region.
+</p>
+
       </section>
 
       <section className="biggest-manufacturer py-[20px] md:py-[40px] text-center m-auto flex justify-center">
