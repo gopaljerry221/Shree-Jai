@@ -43,6 +43,14 @@ export default function Navbar() {
               href="/about"
               className="nav-link text-white md:text-black font-semibold hover:text-[#ed1112] text-[18px]"
             >
+              About us
+            </Link>
+          </li>
+          <li className="nav-list py-3 md:py-0 text-left">
+            <Link
+              href="/about"
+              className="nav-link text-white md:text-black font-semibold hover:text-[#ed1112] text-[18px]"
+            >
               Products
             </Link>
           </li>
