@@ -118,7 +118,7 @@ export default function Home() {
           <div>
             <p className="font-semibold pb-[30px] pt-[20px] md:pt-[0px]"> <span className="text-[#666] font-bold text-[16px] md:text-[20px]">Quality Control -</span> Our aim to provide Best Quality with Best Fragrance. Our incenses are hand rolled and machine made we have highly committed Team of quality examinees that avails you best quality at Competitive Price.</p>
 
-            <p className="font-semibold text-[16px] md:text-[20px]"> <span className="text-[#666] font-bold">Import & Export -</span> We export fine quality agarbattis/incense sticks that have natural, exotic fragrances. With different perfumes jasmine, sandalwood & rose, which spread the ambience of freshness and tranquility</p>
+            <p className="font-semibold"> <span className="text-[#666] font-bold">Import & Export -</span> We export fine quality agarbattis/incense sticks that have natural, exotic fragrances. With different perfumes jasmine, sandalwood & rose, which spread the ambience of freshness and tranquility</p>
           </div>
         </div>
       </section>

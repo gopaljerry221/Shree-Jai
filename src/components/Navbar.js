@@ -10,6 +10,10 @@ import Link from "next/link";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleLinkClick = () => {
+    setIsOpen(false); // close menu on link click
+  };
+
   return (
     <nav className="bg-white md:px-[50px] py-[10px] md:flex md:items-center md:justify-between navbar-main">
       <div className="flex items-center justify-between px-[20px] md:px-[0px]">
@@ -41,6 +45,7 @@ export default function Navbar() {
           <li className="nav-list py-3 md:py-0 text-left">
             <Link
               href="/about"
+              onClick={handleLinkClick}
               className="nav-link text-white md:text-black font-semibold hover:text-[#ed1112] text-[18px]"
             >
               About us
@@ -48,7 +53,8 @@ export default function Navbar() {
           </li>
           <li className="nav-list py-3 md:py-0 text-left">
             <Link
-              href="/about"
+              href="/product"
+              onClick={handleLinkClick}
               className="nav-link text-white md:text-black font-semibold hover:text-[#ed1112] text-[18px]"
             >
               Products
@@ -56,7 +62,8 @@ export default function Navbar() {
           </li>
           <li className="nav-list py-3 md:py-0 text-left">
             <Link
-              href="/about"
+              href="/dealers"
+              onClick={handleLinkClick}
               className="nav-link text-white md:text-black font-semibold hover:text-[#ed1112] text-[18px]"
             >
               DealerShip
@@ -64,7 +71,8 @@ export default function Navbar() {
           </li>
           <li className="nav-list py-3 md:py-0 text-left">
             <Link
-              href="/about"
+              href="/events"
+              onClick={handleLinkClick}
               className="nav-link text-white md:text-black font-semibold hover:text-[#ed1112] text-[18px]"
             >
               Events
@@ -72,7 +80,8 @@ export default function Navbar() {
           </li>
           <li className="nav-list py-3 md:py-0 text-left">
             <Link
-              href="/about"
+              href="/contact"
+              onClick={handleLinkClick}
               className="nav-link text-white md:text-black font-semibold hover:text-[#ed1112] text-[18px]"
             >
               Contact

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <>
-      <div className="about-us-wrapper py-[40px] px-[70px]">
+      <div className="about-us-wrapper py-[40px] px-[20px] md:px-[70px]">
         <h4 className="text-[18px] pb-[30px] font-bold">Shree Jai – Blending Tradition with Fragrance to Enrich Everyday Life.</h4>
         <p className="text-[18px]">
           <span className="font-bold text-[#666] text-[18px]">
