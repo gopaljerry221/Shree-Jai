@@ -34,7 +34,7 @@ export default function ProductGrid({ activeCategory, activeSub }) {
 
   return (
     <>
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 w-full">
         {products.map((p) => (
           <div
             key={p.id}
