@@ -22,7 +22,7 @@ export default function ProductModal({ product, isOpen, onClose }) {
         <img
           src={product.image}
           alt={product.name}
-          className="w-full h-64 object-cover rounded mb-4"
+          className="w-full h-64 object-contain rounded mb-4"
         />
         <h2 className="text-xl font-semibold mb-2">{product.name}</h2>
         <p className="text-lg font-medium text-blue-600">₹ {product.price}</p>

@@ -13,7 +13,7 @@ export default function Sidebar({ categories, activeCategory, setActiveCategory,
                 setActiveSub(null);
               }}
               className={`w-full text-left font-medium py-2 px-3 rounded transition flex justify-between items-center ${
-                activeCategory === cat.name ? "bg-blue-200" : "hover:bg-gray-200"
+                activeCategory === cat.name ? "bg-[]" : "hover:bg-gray-200"
               }`}
             >
               {cat.name}
@@ -23,7 +23,7 @@ export default function Sidebar({ categories, activeCategory, setActiveCategory,
                     activeCategory === cat.name ? "rotate-90" : "rotate-0"
                   }`}
                 >
-                  ▶
+                  {'>'}
                 </span>
               )}
             </button>
@@ -39,7 +39,7 @@ export default function Sidebar({ categories, activeCategory, setActiveCategory,
                     <button
                       onClick={() => setActiveSub(null)}
                       className={`w-full text-left text-sm px-3 py-1 rounded ${
-                        activeSub === null ? "bg-blue-500 text-white" : "hover:bg-gray-300"
+                        activeSub === null ? "bg-[#f9cf00] text-black" : "hover:bg-gray-300"
                       }`}
                     >
                       All
@@ -50,7 +50,7 @@ export default function Sidebar({ categories, activeCategory, setActiveCategory,
                       <button
                         onClick={() => setActiveSub(sub)}
                         className={`w-full text-left text-sm px-3 py-1 rounded ${
-                          activeSub === sub ? "bg-blue-500 text-white" : "hover:bg-gray-300"
+                          activeSub === sub ? "bg-[#f9cf00] text-black" : "hover:bg-gray-300"
                         }`}
                       >
                         {sub}
