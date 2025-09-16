@@ -1,29 +1,62 @@
 "use client";
-import Image from "next/image";
+import { useState } from "react";
+import { productsData } from "./productsData";
+import ProductModal from "./ProductModal";
 
 export default function ProductGrid({ activeCategory, activeSub }) {
-  const title = activeSub || activeCategory;
+  const [selectedProduct, setSelectedProduct] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  // Get category object
+  const category = productsData.find((c) => c.category === activeCategory);
+
+  // Get products from subcategory or all
+  let products = [];
+  if (category) {
+    if (activeSub) {
+      const subcat = category.subcategories.find((s) => s.name === activeSub);
+      if (subcat) products = subcat.products;
+    } else {
+      // all products in category
+      products = category.subcategories.flatMap((s) => s.products);
+    }
+  }
+
+  const openModal = (product) => {
+    setSelectedProduct(product);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setSelectedProduct(null);
+    setIsModalOpen(false);
+  };
 
   return (
-    <div className="w-full md:w-3/4">
-      <h3 className="text-xl font-semibold mb-4">{title}</h3>
+    <>
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-        {[1, 2, 3, 4, 5, 6].map((p) => (
+        {products.map((p) => (
           <div
-            key={p}
-            className="border rounded-lg p-3 flex flex-col items-center hover:shadow-lg transition"
+            key={p.id}
+            onClick={() => openModal(p)}
+            className="border rounded-lg p-3 flex flex-col items-center hover:shadow-lg transition cursor-pointer"
           >
-            <Image
-              src="/placeholder.png"
-              alt={title}
-              width={120}
-              height={120}
-              className="rounded mb-2"
+            <img
+              src={p.image}
+              alt={p.name}
+              className="rounded mb-2 w-32 h-32 object-cover"
             />
-            <p className="text-sm font-medium text-center">{title} {p}</p>
+            <p className="text-sm font-medium text-center">{p.name}</p>
+            <p className="text-sm font-semibold text-blue-600">₹ {p.price}</p>
           </div>
         ))}
       </div>
-    </div>
+
+      <ProductModal
+        product={selectedProduct}
+        isOpen={isModalOpen}
+        onClose={closeModal}
+      />
+    </>
   );
 }
