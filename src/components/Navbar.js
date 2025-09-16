@@ -69,7 +69,7 @@ export default function Navbar() {
               DealerShip
             </Link>
           </li>
-          <li className="nav-list py-3 md:py-0 text-left">
+          {/* <li className="nav-list py-3 md:py-0 text-left">
             <Link
               href="/events"
               onClick={handleLinkClick}
@@ -77,7 +77,7 @@ export default function Navbar() {
             >
               Events
             </Link>
-          </li>
+          </li> */}
           <li className="nav-list py-3 md:py-0 text-left">
             <Link
               href="/contact"
